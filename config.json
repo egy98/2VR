@@ -1,0 +1,36 @@
+{
+  "inbounds": [
+    {
+      "port": 9240,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+            "alterId": 0
+          },
+          {
+            "id": "0ab2f79e-85b7-447e-a09e-cd9738975636",
+            "alterId": 0
+          },
+          {
+            "id": "5d74fcc3-a451-4e46-9365-cd6f1a42f3a7",
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pubg"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
